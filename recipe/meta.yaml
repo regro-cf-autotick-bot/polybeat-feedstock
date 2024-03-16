@@ -1,5 +1,5 @@
 {% set name = "polybeat" %}
-{% set version = "1.0.0" %}
+{% set version = "1.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 17fc46568071985446294b703696697778954f2a8ee62577563e46a6dc3e9a68
+  sha256: 863886e285109d66e3f176c815a21128e815bb2ebd3cae94c215233477abab07
 
 build:
   number: 0
